@@ -1,0 +1,332 @@
+/*САМА СТРАНИЦА*/
+
+body {
+    width: 1260px;
+}
+
+header,
+main,
+footer {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #d4d4d4;
+}
+
+
+
+
+/*header begin*/
+
+
+
+/*nav begin*/
+header {
+    background-color: #222222;
+}
+
+.empty {
+    width: 434px;
+    margin-top: 40px;
+}
+
+.logo {
+    margin-top: 25px;
+    width: 60px;
+    height: 60px;
+}
+
+.nav-text {
+    display: flex;
+    font-size: 14px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.nav-text1 {
+    width: 100px;
+    font-family: "Verdana", serif;
+    font-size: 14px;
+    color: #d4d4d4;
+}
+
+nav {
+    display: flex;
+    width: 960px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+.icons {
+    margin-top: 40px;
+}
+
+.icon {
+    width: 20px;
+    padding-left: 30px;
+}
+
+/*nav end*/
+
+
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 100.5px;
+}
+
+.header-item {
+    width: 440px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.moonimg {
+    height: 440px;
+    width: 440px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.moonimg::before {
+    content: url('https://i.ibb.co/wCww8Ct/moon-rocket.png');
+
+}
+
+h1,
+.logo-text,
+.button {
+    margin-top: 0;
+    margin-left: 120px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    margin-top: 60px;
+    font-family: "Courier New", cursive;
+    font-size: 45px;
+    color: white;
+}
+
+.logo-text {
+    font-family: "Verdana", serif;
+    font-size: 14px;
+    color: #d4d4d4;
+}
+
+.button {
+  position: absolute;
+  font-weight: 700;
+  color: DarkSlateGray;
+  font-family: "Verdana", serif;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 25px;
+  background: #ffcb06;
+  box-shadow: 0 -3px #ccaa00 inset;
+  transition: 0.2s;
+  left: 160px;
+  padding-right: 100px;
+}
+
+.button::after{
+    content: url('https://i.ibb.co/cbSTV9v/right-arrow-dark.png');
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.button:hover { background: #f4d528; }
+.button:active {
+  background: rgb(255, 223, 26);
+  box-shadow: 0 3px #ccaa00 inset;
+}
+
+/*header end*/
+
+
+
+
+
+
+/*features begin*/
+
+.features {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 70px;
+    background-color: #131313;
+}
+
+.feature {
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+.feature-text {
+    color: #d4d4d4;
+    font-family: "Verdana", serif;
+}
+
+.ff {}
+
+.fs {}
+
+.ft {}
+
+.fl {}
+
+
+.ff::before {
+    content: url('https://i.ibb.co/GQD09Nn/advantage-icon-1.png');
+}
+
+.fs::before {
+    content: url('https://i.ibb.co/YWTxNWY/advantage-icon-2.png');
+}
+
+.ft::before {
+    content: url('https://i.ibb.co/tLf6QDt/advantage-icon-3.png');
+}
+
+.fl::before {
+    content: url('https://i.ibb.co/x3s0GRK/advantage-icon-4.png');
+}
+
+/*features end*/
+
+
+
+
+
+
+/*conten begin*/
+
+h2 {
+    text-align: center;
+    font-family: "Courier New", cursive;
+    font-size: 26px;
+}
+
+h3 {
+    font-family: "Courier New", cursive;
+    color: #131313;
+    font-size: 24px;
+}
+
+strong {
+    color: #131313;
+    font-family: "Verdana", serif;
+    font-size: 14px;
+}
+
+.c-text {
+    font-family: "Verdana", serif;
+    color: #555555;
+}
+
+.content-text {
+    padding-bottom: 10px;
+}
+
+.content {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.content-item {
+    width: 440px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.conten-list {
+    list-style-image: url(img/mark.png);
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.content-row {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.map {}
+
+.map::before {
+    content: url('https://i.ibb.co/H2dhTBF/map.jpg');
+}
+
+/*content end*/
+
+
+
+
+
+
+/*footer begin*/
+footer {
+    display: flex;
+    background-color: #131313;
+    flex-wrap: nowrap;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 55px;
+}
+
+.f-logo-text {
+    margin-left: 10px;
+    font-family: "Verdana", serif;
+    color: #d4d4d4;
+}
+
+.footer-h {
+    color: white;
+    font-family: "Verdana", serif;
+    font-size: 14px;
+}
+
+.footer-item {
+    font-family: "Verdana", serif;
+    color: #ffffff;
+    width: 180px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.footer-text {
+    padding: 0;
+    font-family: "Verdana", serif;
+    color: #d4d4d4;
+}
+
+.fli {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #7d7d7d;
+    font-family: "Verdana", serif;
+}
+
+.copy-text {
+    width: 250px;
+    color: #555555;
+    margin-top: 80px;
+}
+
+.center-line {
+    display: flex;
+    align-items: center;
+}
+/*footer end*/
